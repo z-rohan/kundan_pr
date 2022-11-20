@@ -4,7 +4,7 @@ def cpu_usage(percent):
     usage = psutil.cpu_percent()
     return usage>percent
 
-if cpu_usage(85):
+if cpu_usage(65):
     print("Overloaded")
 
 else:
